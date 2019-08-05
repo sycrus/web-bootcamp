@@ -9,8 +9,12 @@ h1 {
     font-size: 80px;
     letter-spacing: 3px;
     font-family: 'Fredoka One', cursive;
+    text-align: center;
 }
 
+#links {
+    text-align: center;
+}
 a:link {
     color: #574f7d;
   }
