@@ -1,0 +1,43 @@
+html { 
+    background-color: #dff0ea;
+    font-size: 30px;  
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    color: #4f3a65;
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: 'Fredoka One', cursive;
+}
+
+a:link {
+    color: #574f7d;
+  }
+  
+
+  a:visited {
+    color: #95adbe;
+  }
+
+
+a:hover {
+    color: #dff0ea;
+    background-color: #4f3a65;
+}
+
+body {
+    color: #95adbe;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    padding: 80px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}

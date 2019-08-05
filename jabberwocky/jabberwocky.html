@@ -23,7 +23,7 @@
         .title{
             font-family: 'Crimson Pro', serif;
             color: rgb(255, 0, 200);
-            font-size: 60px;
+            font-size: 80px;
             transform: rotate(-90deg);
         }
 
@@ -33,21 +33,32 @@
 
         /* Create two equal columns that sits next to each other */
         .column {
-            padding: 80px;
             font-family: 'Crimson Pro', serif;
-            font-size: 40px;
+            font-size: 50px;
             color: rgb(255, 255, 255);
+        }
+        #column-1 {
+            padding-top: 300px;
+            padding-left: 80px;
+            position: fixed;
+            width: 10%;
+            height: 100%;
+        }
+        #column-2 {
+            padding-top: 500px;
+            padding-left: 100px;
+            width: 90%;
+            height: 10%;
+            margin-left: 30%;
         }
 
         
         </style>
     </head>
-    <body>
-
-       
+    <body>  
         <div class="row">
 
-            <div class="column">
+            <div id="column-1" class="column">
                     <div class="title">
                             <div style="flex-grow: 1"></div>
                                 <p>Jabberwocky</p>
@@ -55,8 +66,9 @@
                 
             </div>
 
-            <div class="column"˘>
-                <div style="flex-grow: 40"></div>
+            <div id="column-2"˘ class="column">
+                <div style="flex-grow: 40"></div> <br>
+            
                 <p>’Twas brillig, and the slithy toves <br>
                 &nbsp;&nbsp;&nbsp; Did gyre and gimble in the wabe: <br>  
                 All mimsy were the borogoves, <br>
