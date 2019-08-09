@@ -34,7 +34,7 @@ justify-content: center;
     color:rgb(255, 255, 255);
     background-color: rgb(207, 50, 25);
 
-    animation: color1 4s infinite alternate;
+    animation: color1 4s 2s infinite alternate;
 }
 .item2{
     grid-area: section2;
@@ -50,7 +50,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(207, 50, 25);
 
-    animation: color1 4s infinite alternate;
+    animation: color1 4s 2s infinite alternate;
 }
 
 
@@ -66,7 +66,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(190, 40, 37);
 
-    animation: color2 4s infinite alternate;
+    animation: color2 4s 2s infinite alternate;
 }
 .item4 {
     grid-area: section4;
@@ -82,7 +82,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(190, 40, 37);
 
-    animation: color2 4s infinite alternate;
+    animation: color2 4s 2s infinite alternate;
 }
 .item5 {
     grid-area: section5;
@@ -98,7 +98,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(190, 40, 37);
 
-    animation: color2 4s infinite alternate;
+    animation: color2 4s 2s infinite alternate;
 }
 .item6 {
     grid-area: section6;
@@ -114,7 +114,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(190, 40, 37);
 
-    animation: color2 4s infinite alternate;
+    animation: color2 4s 2s infinite alternate;
 }
 
 
@@ -132,7 +132,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(182, 54, 64);
 
-    animation: color3 4s infinite alternate;
+    animation: color3 4s 2s infinite alternate;
 }
 .item8 {
     grid-area: section8;
@@ -148,7 +148,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(182, 54, 64);
 
-    animation: color3 4s infinite alternate;
+    animation: color3 4s 2s infinite alternate;
 }
 .item9 {
     grid-area: section9;
@@ -164,7 +164,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(182, 54, 64);
 
-    animation: color3 4s infinite alternate;
+    animation: color3 4s 2s infinite alternate;
 }
 .item10 {
     grid-area: section10;
@@ -180,7 +180,7 @@ justify-content: center;
     color: rgb(27, 27, 27);
     background-color: rgb(182, 54, 64);
 
-    animation: color3 4s infinite alternate;
+    animation: color3 4s 2s infinite alternate;
 }
 
 @keyframes color1 {
