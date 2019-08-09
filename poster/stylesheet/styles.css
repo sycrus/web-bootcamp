@@ -5,69 +5,163 @@
     line-height: 1;
 
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto ;
-    align-content: end;
+    height: 1200px;
+    grid-template-rows: 38% 15% 18% 15% 17%;
+    grid-template-areas: 
+                    'section1 section2'
+                    'section3 section4'
+                    'section5 section6'
+                    'section7 section8'
+                    'section9 section10';
 }
 
-
-.grid-container > div {
-   
+.grid-container div {
+    align-items: center;
+justify-content: center;
 }
 
-#section1 {
+.item1{
+    grid-area: section1;
+    text-align: right;
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 25px;
+
+    align-self: end;
+    padding-top: 400px;
+    padding-bottom: 150px;
+
+    color:rgb(255, 255, 255);
     background-color: rgb(207, 50, 25);
 }
 
-#section2 {
+.item2{
+    grid-area: section2;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 25px;
+
+    align-self: end;
+    padding-top: 400px;
+    padding-bottom: 150px;
+    
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(207, 50, 25);
+}
+
+.item3 {
+    grid-area: section3;
+    text-align: right;
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 25px;
+
+    padding-bottom: 20px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(190, 40, 37);
+}
+.item4 {
+    grid-area: section4;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 25px;
+
+    align-self: end;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(190, 40, 37);
+}
+.item5 {
+    grid-area: section5;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 25px;
+    
+    align-self: end;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(190, 40, 37);
+}
+.item6 {
+    grid-area: section6;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+
+    align-self: end;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    color: rgb(27, 27, 27);
     background-color: rgb(190, 40, 37);
 }
 
-#section3 {
+.item7 {
+    grid-area: section7;
+    text-align: right;
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 25px;
+
+    align-self: end;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(182, 54, 64);
+}
+.item8 {
+    grid-area: section8;
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 25px;
+
+    align-self: end;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(182, 54, 64);
+}
+.item9 {
+    grid-area: section9;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 25px;
+
+    align-self: end;
+    padding-top: 90px;
+    padding-bottom: 80px;
+
+    color: rgb(27, 27, 27);
+    background-color: rgb(182, 54, 64);
+}
+.item10 {
+    grid-area: section10;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+
+    align-self: end;
+    padding-top: 10px;
+    padding-bottom: 80px;
+
+    color: rgb(27, 27, 27);
     background-color: rgb(182, 54, 64);
 }
 
-#title-left {
-    font-size: 60px;
-    font-weight: bold;
-    text-align: right;
-    padding-right: 30px;
-    
-    color: rgb(27, 27, 27);
-}
-
-#body-left {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: right;
-    padding-right: 30px;
-    
-    color: rgb(27, 27, 27);
-}
-
-#title-right {
-    font-size: 60px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 30px;
-
-    color: rgb(27, 27, 27);
-}
-#body-right {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    padding-left: 30px;
-    
-    color: rgb(27, 27, 27);
-}
-
-#poster-title {
-    font-size: 60px;
-    font-weight: bold;
-    text-align: right;
-
-    color:rgb(255, 255, 255);
-}
 
 
