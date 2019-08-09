@@ -1,0 +1,73 @@
+
+.grid-container {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    line-height: 1;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto ;
+    align-content: end;
+}
+
+
+.grid-container > div {
+   
+}
+
+#section1 {
+    background-color: rgb(207, 50, 25);
+}
+
+#section2 {
+    background-color: rgb(190, 40, 37);
+}
+
+#section3 {
+    background-color: rgb(182, 54, 64);
+}
+
+#title-left {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30px;
+    
+    color: rgb(27, 27, 27);
+}
+
+#body-left {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30px;
+    
+    color: rgb(27, 27, 27);
+}
+
+#title-right {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 30px;
+
+    color: rgb(27, 27, 27);
+}
+#body-right {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 30px;
+    
+    color: rgb(27, 27, 27);
+}
+
+#poster-title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right;
+
+    color:rgb(255, 255, 255);
+}
+
+
